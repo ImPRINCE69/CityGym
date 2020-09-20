@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <Button
+                android:id="@+id/gain"
+                android:layout_width="218dp"
+                android:layout_height="69dp"
+                android:layout_marginStart="92dp"
+                android:layout_marginLeft="92dp"
+                android:text="Weight Gain Diet"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                android:background="@color/yellow"
+                android:textColorHighlight="@color/black"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/loss"
+                android:layout_width="218dp"
+                android:layout_height="69dp"
+                android:layout_marginStart="92dp"
+                android:layout_marginLeft="92dp"
+                android:paddingVertical="17dp"
+                android:paddingStart="20sp"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp"
+                android:text="Weight Loss Diet"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                android:background="@color/yellow"
+                android:textColorHighlight="@color/black"
+                android:paddingTop="10dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/gym"
+                android:layout_width="218dp"
+                android:layout_height="69dp"
+                android:layout_marginStart="92dp"
+                android:layout_marginLeft="92dp"
+                android:paddingStart="20sp"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp"
+                android:text="Bodybuilding (Gym) Diet"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                android:textColorHighlight="@color/black"
+                android:background="@color/yellow"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/keto"
+                android:layout_width="218dp"
+                android:layout_height="69dp"
+                android:layout_marginStart="92dp"
+                android:layout_marginLeft="92dp"
+                android:paddingStart="20sp"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp"
+                android:text="Keto Diet"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                android:textColorHighlight="@color/black"
+                android:background="@color/yellow"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/muscle"
+                android:layout_width="218dp"
+                android:layout_height="69dp"
+                android:layout_marginStart="92dp"
+                android:layout_marginLeft="92dp"
+                android:paddingStart="20sp"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp"
+                android:text="Muscle Building foods"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                android:textColorHighlight="@color/black"
+                android:background="@color/yellow"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/obese"
+                android:layout_width="218dp"
+                android:layout_height="69dp"
+                android:layout_marginStart="92dp"
+                android:layout_marginLeft="92dp"
+                android:paddingStart="20sp"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp"
+                android:text="Obese Diet"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                android:textColorHighlight="@color/black"
+                android:background="@color/yellow"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/acidity"
+                android:layout_width="218dp"
+                android:layout_height="69dp"
+                android:layout_marginStart="92dp"
+                android:layout_marginLeft="92dp"
+                android:paddingStart="20sp"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp"
+                android:text="Detox Recipes"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColorHighlight="@color/black"
+                app:layout_constraintVertical_bias="1.0"
+                android:background="@color/yellow"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

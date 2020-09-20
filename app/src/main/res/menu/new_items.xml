@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/exercise"
+        android:enabled="true"
+        android:icon="@drawable/ic_exercise"
+        android:title="Exercises"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/plans"
+        android:enabled="true"
+        android:icon="@drawable/ic_plans"
+        android:title="Plans"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/more"
+        android:enabled="true"
+        android:icon="@drawable/ic_more"
+        android:title="more"
+        app:showAsAction="ifRoom"/>
+</menu>

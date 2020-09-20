@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">City Gym</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="weight">weight</string>
+    <string name="height">height</string>
+
+    <string name="very_severely_underweight">Very severely underweight</string>
+    <string name="severely_underweight">Severely underweight</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="Overweight">Overweight</string>
+    <string name="obese_class_i">Obese Class I (Moderately Obese)</string>
+    <string name="obese_class_ii">Obese Class II (Severely Obese)</string>
+    <string name="obese_class_iii">Obese Class III (Very Severely Obese)</string>
+
+
+</resources>

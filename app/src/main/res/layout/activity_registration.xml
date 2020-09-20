@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/regis"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    android:orientation="vertical"
+    tools:context=".Registration"
+    android:padding="30dp"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Full Name"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="22sp"
+            android:id="@+id/txtFullname"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter UserName"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="22sp"
+            android:id="@+id/txtUsername"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="22sp"
+            android:id="@+id/txtEmail"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="22sp"
+            android:id="@+id/txtPass"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="22sp"
+            android:id="@+id/txtConfirm"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/radiogrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/rtext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender:        "
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="20sp" />
+
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Register"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/btn_bg"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/rbtn"/>
+</LinearLayout>

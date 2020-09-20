@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.citygym">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Tips"></activity>
+        <activity android:name=".BMI" />
+        <activity android:name=".Food_Calorie" />
+        <activity android:name=".Shoulder" />
+        <activity android:name=".Legs" />
+        <activity android:name=".Biceps" />
+        <activity android:name=".Back" />
+        <activity android:name=".Triceps" />
+        <activity android:name=".Chest" />
+        <activity android:name=".Plans" />
+        <activity android:name=".Adminlogin" />
+        <activity android:name=".Developer" />
+        <activity android:name=".Aboutus" />
+        <activity
+            android:name=".MyAppIntro"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Squats" />
+        <activity android:name=".Pike" />
+        <activity android:name=".Lunges" />
+        <activity android:name=".Hindu" />
+        <activity android:name=".Pull" />
+        <activity android:name=".Diamond" />
+        <activity android:name=".Pushups_rotation" />
+        <activity android:name=".Pec_fly" />
+        <activity android:name=".Jumping_squats" />
+        <activity android:name=".Incline_dumbellpress" />
+        <activity android:name=".Tricep_dips" />
+        <activity android:name=".Knee_pushups" />
+        <activity android:name=".Widearm" />
+        <activity android:name=".Jumping_Jacks" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".Cobra" />
+        <activity android:name=".CityExercise" />
+        <activity
+            android:name=".Registration"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".Admin"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name=".Advance" />
+        <activity android:name=".Intermediate" />
+        <activity android:name=".Login" />
+        <activity android:name=".Diet" />
+        <activity android:name=".Cycling" />
+        <activity android:name=".Skipping" />
+        <activity android:name=".Jumpjacks" />
+        <activity android:name=".Mountain" />
+        <activity android:name=".Burpees" />
+        <activity android:name=".Cardio" />
+        <activity android:name=".Beginner" />
+        <activity android:name=".Fullbody" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

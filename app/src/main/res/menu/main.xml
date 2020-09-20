@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:icon="@drawable/ic_info">
+
+    <item
+        android:title="About City Gtym"
+        android:id="@+id/id_citygym"
+        android:orderInCategory="100" />
+
+    <item
+        android:title="About Developer"
+        android:id="@+id/id_developer"
+        android:orderInCategory="101" />
+
+    <item
+        android:title="Share"
+        android:id="@+id/id_share"
+        android:orderInCategory="102"
+        />
+</menu>

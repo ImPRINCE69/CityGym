@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jumping_squats"
+    android:background="#000000">
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/gif2"
+        android:layout_width="match_parent"
+        android:layout_height="247dp"
+        android:background="@drawable/jumpsquatsgif" />
+
+    <TextView
+        android:layout_below="@id/gif2"
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_above="@id/text2"
+        android:background="#3D3434"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="364dp"
+        android:gravity="center"
+        android:text="Jumping Squats *10"
+        android:textColor="#FFC107"
+        android:textSize="22dp"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_marginRight="@android:dimen/app_icon_size"
+        android:layout_below="@id/gif2"
+        android:layout_width="match_parent"
+        android:layout_height="359dp"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:layout_alignParentBottom="true"
+        android:text="*      Stand with your feet shoulder-width apart.\n
+*      Start by doing a regular squat, then engage your core and jump up explosively.\n
+*      When you land, lower your body back into the squat position to complete one rep. Land as quietly as possible, which requires control.\n
+*      Do two to three sets of 10 reps"
+        android:textColor="#FFC107"
+        android:textSize="22dp"/>
+
+
+</RelativeLayout>

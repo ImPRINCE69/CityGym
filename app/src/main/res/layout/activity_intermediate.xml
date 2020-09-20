@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Intermediate"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                android:background="@drawable/inclinegif" />
+
+            <Button
+                android:id="@+id/button121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Incline Push-ups"
+                android:background="#000000"
+                android:textColor="#FFC107"/>
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                android:background="@drawable/jumpsquatsgif"/>
+
+            <Button
+                android:id="@+id/button122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jumping Squats"
+                android:background="#000000"
+                android:textColor="#FFC107"/>
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                android:background="@drawable/kneegif"/>
+
+            <Button
+                android:id="@+id/button123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Knee Push-ups"
+                android:background="#000000"
+                android:textColor="#FFC107"/>
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                android:background="@drawable/pec_flygif"/>
+
+            <Button
+                android:id="@+id/button124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pec-Fly"
+                android:background="#000000"
+                android:textColor="#FFC107"/>
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                android:background="@drawable/tricepdipgif"/>
+
+            <Button
+                android:id="@+id/button125"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Triceps-Dips"
+                android:background="#000000"
+                android:textColor="#FFC107"/>
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                android:background="@drawable/widegif"/>
+
+            <Button
+                android:id="@+id/button126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wide Push-ups"
+                android:background="#000000"
+                android:textColor="#FFC107"/>
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:background="@drawable/pushups_rotationgif"/>
+
+            <Button
+                android:id="@+id/button127"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pushup-Rotation"
+                android:background="#000000"
+                android:textColor="#FFC107"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

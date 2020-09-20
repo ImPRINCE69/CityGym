@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Skipping"
+    android:background="#000000">
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:background="@drawable/skipping" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="300dp"
+        android:gravity="center"
+        android:text="Advantages :"
+        android:textColor="#FFC107"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="301dp"
+        android:layout_alignParentBottom="true"
+        android:text="1. Improves Heart Health \n
+2. Tones Lower And Upper Body \n
+3. Burns Calories To Aid Weight Loss \n
+4. Improves Motor Function And Stamina. \n
+5. Helps Improve The Immune System. \n
+6. Helps Improve Bone Density. \n
+7. Boosts Mental Health. \n
+8. Helps Children With ADHD(Attention Deficit Hyperactivity Disorder). \n
+9. Is Easy On Your Joints. \n
+10. Helps Improve Skin Health."
+        android:textColor="#FFC107" />
+
+</RelativeLayout>

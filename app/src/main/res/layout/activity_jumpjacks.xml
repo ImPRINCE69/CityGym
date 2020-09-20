@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jumpjacks"
+    android:background="#000000">
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:layout_width="match_parent"
+        android:layout_height="231dp"
+        android:background="@drawable/jumpjacks" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="327dp"
+        android:gravity="center"
+        android:text="Advantages:"
+        android:textColor="#FFC107"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="326dp"
+        android:layout_alignParentBottom="true"
+        android:text="1.weight management.\n 2.reduced blood pressure. \n 3.reduced low-density lipoprotein (LDL) cholesterol, the “bad” cholesterol. \n 4.increased high-density lipoprotein (HDL) cholesterol, the “good” cholesterol. \n 5.increased insulin sensitivity"
+        android:textColor="#FFC107"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

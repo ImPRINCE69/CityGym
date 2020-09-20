@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Widearm"
+    android:background="#000000">
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/gif6"
+        android:layout_width="412dp"
+        android:layout_height="231dp"
+        android:layout_marginBottom="428dp"
+        android:background="@drawable/widegif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="404dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="368dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:text="Wide arm push-ups *4"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:layout_above="@id/gif6"
+        android:background="#3D3434"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gif1" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="413dp"
+        android:layout_height="362dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:text="*      Start in the regular push-up position but with your hands spread wider then your shoulders. \n
+*      Then push your body up and down.Remember to keep your body straight."
+        android:textColor="#FFC107"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</RelativeLayout>

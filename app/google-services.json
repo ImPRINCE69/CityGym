@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "505770462738",
+    "firebase_url": "https://citygym-57245.firebaseio.com",
+    "project_id": "citygym-57245",
+    "storage_bucket": "citygym-57245.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505770462738:android:d5dcfd08960ef573",
+        "android_client_info": {
+          "package_name": "com.example.citygym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505770462738-rm643qqcdo8ef844s6grjl240dbkgl2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.citygym",
+            "certificate_hash": "88fe48611f91692fffa520ac3f5b6d79010fa61f"
+          }
+        },
+        {
+          "client_id": "505770462738-sp7l20ikb08n5at6utj8topaeme887g4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlGxfzxxCRr5ZuTeabgUT9n2pZYL3cM78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505770462738-sp7l20ikb08n5at6utj8topaeme887g4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Aboutus"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:background="@drawable/background" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    Are You Ready to become Best ??? \n"
+                android:textColor="#FFC107"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:fontStyle ="italic"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:text="•	Facilities: \n"
+                android:textColor="#FFC107"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Unisex Gym \n* Personal Trainers Available \n* 24 Hours Open"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/instagram"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:background="@drawable/insta"
+                android:onClick="cityinsta"
+                android:text="Instagram"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

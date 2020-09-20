@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/chest"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:background="@drawable/chest"/>
+            <Button
+                android:id="@+id/tricep"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:background="@drawable/triceps"/>
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:background="@drawable/back"/>
+            <Button
+                android:id="@+id/biceps"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:background="@drawable/biceps"/>
+            <Button
+                android:id="@+id/leg"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:background="@drawable/legs"/>
+            <Button
+                android:id="@+id/shoulder"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:background="@drawable/shoulder"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

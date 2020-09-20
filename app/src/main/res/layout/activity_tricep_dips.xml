@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tricep_dips"
+    android:background="#000000">
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/gif6"
+        android:layout_width="409dp"
+        android:layout_height="268dp"
+        android:layout_marginBottom="428dp"
+        android:background="@drawable/tricepdipgif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_above="@id/gif6"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="366dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Triceps Dips *4"
+        android:background="#3D3434"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gif1" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="317dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:layout_marginBottom="38dp"
+        android:text="*      For the start position,sit on the chair.Then move your hip off the chair with your hands hiding the edge of the chair \n
+*      Slowly bend and stretch your arms to make your body go up and down. This is a great Exercise for the Triceps."
+        android:textColor="#FFC107"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        app:layout_constraintVertical_bias="0.0" />
+
+</RelativeLayout>

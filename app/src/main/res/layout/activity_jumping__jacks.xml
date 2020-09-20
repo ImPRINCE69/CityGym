@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Jumping_Jacks">
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/gif2"
+        android:layout_width="411dp"
+        android:layout_height="226dp"
+        android:layout_marginBottom="433dp"
+        android:background="@drawable/jumpjacks" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_above="@id/text2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="368dp"
+        android:background="#3D3434"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Jumping Jacks    30sec"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="359dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:text="*      Start with your feet together and your arms by your sides,the jump up with your feet apart and your hands overhead. \n
+*      Return to the start position then do the next rep.This exercise provides a full body workout and works all your large muscle groups."
+        android:textColor="#FFC107"
+        android:textSize="22dp" />
+
+</RelativeLayout>

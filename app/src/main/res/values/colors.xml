@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFBC00</color>
+    <color name="colorPrimaryDark">#00BCD4</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="white">#000000</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="gradStart">#CB00E0FF</color>
+    <color name="gradStop">#007AAD</color>
+
+    <color name="green">#18D622</color>
+
+    <color name="firstColor">#09EEDB</color>
+    <color name="secondColor">#6B09EEDB</color>
+    <color name="thirdColor">#2196F3</color>
+
+    <color name="title_color">#000000</color>
+
+    <color name="red">#03A9F4</color>
+
+    <color name="yellow">#FFFC3B</color>
+    <color name="bg">#030303</color>
+
+
+
+</resources>

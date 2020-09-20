@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Burpees">
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/gif6"
+        android:layout_width="412dp"
+        android:layout_height="231dp"
+        android:background="@drawable/burpees" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="405dp"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="326dp"
+        android:gravity="center"
+        android:text="Advantages:"
+        android:textColor="#FFC107"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="23dp"
+        android:text="They burn mega calories \n
+    Burpees make your body a fat burning machine. \n
+    That’s because since burpees are an intense fully body exercise, they burn a ton of calories. \n
+    Plus, research shows that high intensity exercises like burpees burn up to 50% more fat than moderate exercising. \n
+    And better yet, they speed up your metabolism throughout the day—meaning you’ll burn more calories all day long, even after your burpee hell is over. \n
+    So if you want to lose weight, ditch the recumbent bike and elliptical machine—and do some burpees instead."
+        android:textColor="#FFC107"
+        android:textSize="18sp" />
+</RelativeLayout>

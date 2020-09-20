@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cycling"
+    android:background="#000000">
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:background="@drawable/cycle" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="314dp"
+        android:gravity="center"
+        android:text="Advantages :"
+        android:textColor="#FFC107"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="307dp"
+        android:layout_alignParentBottom="true"
+        android:text="1. Boost your stamina and cardio capacity.\n
+2. Burn a lot of calories.\n
+3. Put less stress on your joints. \n
+4. Get both an upper and lower body workout. \n
+5. Burn body fat. \n
+6. Target specific leg muscles. \n
+7. Improve your balance. \n
+8. Maintain fitness after injury. \n
+9. Enjoy a variety of options. \n
+10. Learn quickly."
+        android:textColor="#FFC107"
+        android:textSize="18sp" />
+
+</RelativeLayout>
